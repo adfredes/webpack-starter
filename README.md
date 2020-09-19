@@ -16,3 +16,8 @@ Y para construir el build recuerden:
 ```
 npm run build
 ```
+
+Esta habilitabo para compilar sass (scss)
+```
+npm i -D node-sass sass-loader
+```

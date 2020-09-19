@@ -1,5 +1,5 @@
 import { saludar } from './js/componentes.js';
-import './styles.css';
+import './styles.scss';
 
 //import img from './assets/webpack-sprite.png';
 

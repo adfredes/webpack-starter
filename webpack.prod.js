@@ -18,19 +18,21 @@ module.exports = {
         rules: [
             //Estilos dinamicos, debo hacer import en el componente js
             {
-                test: /\.css$/,  
-                exclude: /styles\.css$/,
+                test: /\.scss$/,  
+                exclude: /styles\.scss$/,
                 use: [
                     'style-loader',
-                    'css-loader'
+                    'css-loader',
+                    "sass-loader"
                 ]
             },
             //Estilos globaes
             {
-                test: /styles\.css$/,
+                test: /styles\.scss$/,
                 use: [
                     MiniCssExtractPlugin.loader,
-                    'css-loader'
+                    'css-loader',
+                    "sass-loader"
                 ]
             },
             {
